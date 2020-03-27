@@ -1,61 +1,60 @@
 package softwareeng;
 
-import static org.hamcrest.CoreMatchers.any;
+import static org.mockito.Mockito.*;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 import org.junit.Test;
-import org.mockito.Mock;
-import org.mockito.Mockito.*;
+import org.mockito.Mockito;
 
 import softwareeng.EquationSolver;
 
-/**
- * Unit test for simple App.
- */
 public class EquationSolverTest 
 {
 	private EquationSolver solver = new EquationSolver();
 	
-	@Mock
-	EquationSolver mockSolver;
-	
-    @Test
+	@Test
     public void caluclateOk()
     {
-    	float[] res = this.solver.calculate(1, 2, 1);
-        float resultPos = res[0];
-        float resultNeg = res[1];
+    	double[] res = this.solver.calculate(1, 2, 1);
+    	double resultPos = res[0];
+    	double resultNeg = res[1];
         
     	assertTrue(resultPos == -1.0);
-    	assertTrue(resultPos == -1.0);
+    	assertTrue(resultNeg == -1.0);
     }
     
     @Test(expected = ArithmeticException.class)
     public void caluclateWhenAEquals0RaiseException()
     {
-    	float[] res = this.solver.calculate(0, 2, 1);
-
+    	this.solver.calculate(0, 2, 1);
     }
     
     @Test
     public void caluclateWithMockWhenAuxReturn0()
-    {
-    	EquationSolver mockSolver = mock(EquationSolver.class);
+    {    	
+    	
+    	EquationSolver mockSolver = Mockito.spy(solver);
+    	Mockito.doReturn(0.0).when(mockSolver).aux(anyDouble(), anyDouble(), anyDouble());
 
-        // define return value for method getUniqueId()
-        when(mockSolver.aux(any(float.class), any(float.class), any(float.class))).thenReturn((float) 0);
-
-        // use mock in test....
-        //assertEquals(test.getUniqueId(), 43);
+    	double a = 1.0;
+    	double b = 2.0;
+    	double c = 1.0;
+    	double expectedResultPos = -1.0;
+    	double expectedResultNeg = -1.0;
+    	
+    	double[] res = mockSolver.calculate(a, b, c);
+    	double resultPos = res[0];
+    	double resultNeg = res[1];
+    	
+    	assertTrue(resultPos == expectedResultPos);
+    	assertTrue(resultNeg == expectedResultNeg);
     }
     
     @Test
     public void auxOk()
     {
-    	float res = this.solver.aux(1, 2, 1);
+    	double res = this.solver.aux(1, 2, 1);
         assertTrue(0.0 == res);
     }
     
@@ -63,10 +62,11 @@ public class EquationSolverTest
     public void auxWhenSqrtIsNegativeRaiseException()
     {
     	try {
-    		float res = this.solver.aux(2, 1, 1);
+    		this.solver.aux(2, 1, 1);
     	} catch (ArithmeticException exception) {
     		assertEquals(exception.getClass(), ArithmeticException.class);
     	}
 
     }
+    
 }

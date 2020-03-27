@@ -8,7 +8,7 @@ public class App
     {
         System.out.println( "Program to solve 2th grade equation" );
         EquationSolver solver = new EquationSolver();
-        float[] res = solver.calculate(1, 6, 2);
+        double[] res = solver.calculate(1, 6, 2);
         System.out.println("Solucion 1: x = " + res[0]);
         System.out.println("Solucion 2: x = " + res[1]);
         
