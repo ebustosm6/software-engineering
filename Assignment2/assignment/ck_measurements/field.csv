@@ -1,0 +1,6 @@
+file,class,method,variable,usage
+C:\DEVELOP\UNI\software_engineering\software-engineering\Assignment2\assignment\src\test\java\softwareeng\EquationSolverTest.java,softwareeng.EquationSolverTest,caluclateWithMockWhenAuxReturn0/0,solver,1
+C:\DEVELOP\UNI\software_engineering\software-engineering\Assignment2\assignment\src\test\java\softwareeng\EquationSolverTest.java,softwareeng.EquationSolverTest,auxOk/0,solver,1
+C:\DEVELOP\UNI\software_engineering\software-engineering\Assignment2\assignment\src\test\java\softwareeng\EquationSolverTest.java,softwareeng.EquationSolverTest,caluclateOk/0,solver,1
+C:\DEVELOP\UNI\software_engineering\software-engineering\Assignment2\assignment\src\test\java\softwareeng\EquationSolverTest.java,softwareeng.EquationSolverTest,caluclateWhenAEquals0RaiseException/0,solver,1
+C:\DEVELOP\UNI\software_engineering\software-engineering\Assignment2\assignment\src\test\java\softwareeng\EquationSolverTest.java,softwareeng.EquationSolverTest,auxWhenSqrtIsNegativeRaiseException/0,solver,1
