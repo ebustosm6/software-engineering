@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="softwareeng.EquationSolverTest" time="0.512" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\DEVELOP\UNI\software_engineering\software-engineering\Assignment2\assignment\target\test-classes;C:\DEVELOP\UNI\software_engineering\software-engineering\Assignment2\assignment\target\classes;C:\Users\usuario\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\usuario\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\usuario\.m2\repository\org\mockito\mockito-core\2.23.4\mockito-core-2.23.4.jar;C:\Users\usuario\.m2\repository\net\bytebuddy\byte-buddy\1.9.3\byte-buddy-1.9.3.jar;C:\Users\usuario\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.3\byte-buddy-agent-1.9.3.jar;C:\Users\usuario\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin"/>
+    <property name="sun.java.command" value="C:\Users\usuario\AppData\Local\Temp\surefire9546720610688276669\surefirebooter6716495773730884192.jar C:\Users\usuario\AppData\Local\Temp\surefire9546720610688276669 2020-04-05T16-14-48_445-jvmRun1 surefire13970979103798230585tmp surefire_03513614239950536165tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="softwareeng.EquationSolverTest"/>
+    <property name="surefire.test.class.path" value="C:\DEVELOP\UNI\software_engineering\software-engineering\Assignment2\assignment\target\test-classes;C:\DEVELOP\UNI\software_engineering\software-engineering\Assignment2\assignment\target\classes;C:\Users\usuario\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\usuario\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\usuario\.m2\repository\org\mockito\mockito-core\2.23.4\mockito-core-2.23.4.jar;C:\Users\usuario\.m2\repository\net\bytebuddy\byte-buddy\1.9.3\byte-buddy-1.9.3.jar;C:\Users\usuario\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.3\byte-buddy-agent-1.9.3.jar;C:\Users\usuario\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\usuario"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-9.0.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\DEVELOP\UNI\software_engineering\software-engineering\Assignment2\assignment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\usuario\AppData\Local\Temp\surefire9546720610688276669\surefirebooter6716495773730884192.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="9.0.4+11"/>
+    <property name="user.name" value="usuario"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-11.3\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\usuario\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\usuario\AppData\Local\Temp\"/>
+    <property name="java.version" value="9.0.4"/>
+    <property name="user.dir" value="C:\DEVELOP\UNI\software_engineering\software-engineering\Assignment2\assignment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Anaconda\condabin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\ProgramData\Anaconda3\Lib;C:\ProgramData\Anaconda3\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\mingw64\bin;C:\MinGW\bin;C:\Program Files\MongoDB\Server\3.6\bin;C:\data\db;C:\Program Files\PuTTY\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Git\cmd;C:\Users\usuario\AppData\Local\Julia-0.6.2\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\Anaconda;C:\ProgramData\Anaconda;C:\ProgramData\Anaconda\Scripts;C:\ProgramData\Anaconda\Lib;C:\ProgramData\Anaconda\bin;;C:\ProgramData\Anaconda3\Lib;C:\Program Files\Java\jdk1.8.0_151;C:\Program Files\Microsoft VS Code\bin;C:\Users\usuario\AppData\Local\Microsoft\WindowsApps;C:\Users\usuario\AppData\Local\Programs\Python\Python36-32\;C:\Users\usuario\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Aliases;C:\Program Files\apache-maven-3.5.2\bin;C:\Users\usuario\AppData\Local\GitHubDesktop\bin;C:\Users\usuario\AppData\Roaming\npm;C:\Users\usuario\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="9.0.4+11"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="53.0"/>
+  </properties>
+  <testcase name="auxWhenSqrtIsNegativeRaiseException" classname="softwareeng.EquationSolverTest" time="0.002"/>
+  <testcase name="auxOk" classname="softwareeng.EquationSolverTest" time="0"/>
+  <testcase name="caluclateWhenAEquals0RaiseException" classname="softwareeng.EquationSolverTest" time="0.001"/>
+  <testcase name="caluclateOk" classname="softwareeng.EquationSolverTest" time="0.001"/>
+  <testcase name="caluclateWithMockWhenAuxReturn0" classname="softwareeng.EquationSolverTest" time="0.463"/>
+</testsuite>
